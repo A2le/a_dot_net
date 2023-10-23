@@ -5,12 +5,80 @@
       "PackagePath": "staticwebassets/MyWebApp.bundle.scp.css"
     },
     {
+      "Id": "/workspaces/a_dot_net/wwwroot/css/compact-disc.png",
+      "PackagePath": "staticwebassets/css/compact-disc.png"
+    },
+    {
+      "Id": "/workspaces/a_dot_net/wwwroot/css/music-album.png",
+      "PackagePath": "staticwebassets/css/music-album.png"
+    },
+    {
       "Id": "/workspaces/a_dot_net/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
     },
     {
       "Id": "/workspaces/a_dot_net/wwwroot/favicon.ico",
       "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/workspaces/a_dot_net/wwwroot/images/calendar.png",
+      "PackagePath": "staticwebassets/images/calendar.png"
+    },
+    {
+      "Id": "/workspaces/a_dot_net/wwwroot/images/cart.png",
+      "PackagePath": "staticwebassets/images/cart.png"
+    },
+    {
+      "Id": "/workspaces/a_dot_net/wwwroot/images/diskette (1).png",
+      "PackagePath": "staticwebassets/images/diskette (1).png"
+    },
+    {
+      "Id": "/workspaces/a_dot_net/wwwroot/images/diskette.png",
+      "PackagePath": "staticwebassets/images/diskette.png"
+    },
+    {
+      "Id": "/workspaces/a_dot_net/wwwroot/images/home (1).png",
+      "PackagePath": "staticwebassets/images/home (1).png"
+    },
+    {
+      "Id": "/workspaces/a_dot_net/wwwroot/images/home.png",
+      "PackagePath": "staticwebassets/images/home.png"
+    },
+    {
+      "Id": "/workspaces/a_dot_net/wwwroot/images/human.png",
+      "PackagePath": "staticwebassets/images/human.png"
+    },
+    {
+      "Id": "/workspaces/a_dot_net/wwwroot/images/location (1).png",
+      "PackagePath": "staticwebassets/images/location (1).png"
+    },
+    {
+      "Id": "/workspaces/a_dot_net/wwwroot/images/location.png",
+      "PackagePath": "staticwebassets/images/location.png"
+    },
+    {
+      "Id": "/workspaces/a_dot_net/wwwroot/images/payment.png",
+      "PackagePath": "staticwebassets/images/payment.png"
+    },
+    {
+      "Id": "/workspaces/a_dot_net/wwwroot/images/search.png",
+      "PackagePath": "staticwebassets/images/search.png"
+    },
+    {
+      "Id": "/workspaces/a_dot_net/wwwroot/images/setting.png",
+      "PackagePath": "staticwebassets/images/setting.png"
+    },
+    {
+      "Id": "/workspaces/a_dot_net/wwwroot/images/settings.png",
+      "PackagePath": "staticwebassets/images/settings.png"
+    },
+    {
+      "Id": "/workspaces/a_dot_net/wwwroot/images/user (1).png",
+      "PackagePath": "staticwebassets/images/user (1).png"
+    },
+    {
+      "Id": "/workspaces/a_dot_net/wwwroot/images/user.png",
+      "PackagePath": "staticwebassets/images/user.png"
     },
     {
       "Id": "/workspaces/a_dot_net/wwwroot/js/site.js",
