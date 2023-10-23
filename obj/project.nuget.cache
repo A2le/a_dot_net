@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3wIdVkSfaLqPzegBgtClyqx+KINxjk1TTzIy377rXanIskdh46KqX7FsY9beTD6j1i8YQ9xMzF6Isc/UgebZrg==",
+  "dgSpecHash": "tY3xmX079pUxZsgmvGIHdNz5U9w/455zQj4oLFq0UoVJVDo2yhYeQQNmJpXFaUWBpaAhxKuywP/kW10F/V3X/Q==",
   "success": true,
-  "projectFilePath": "/home/athule/MyWebApp/MyWebApp.csproj",
+  "projectFilePath": "/workspaces/a_dot_net/MyWebApp.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
