@@ -9,7 +9,7 @@ public class Album_cd
     [Required]
     public string? Name { get; set; }
     public String? Artist { get; set; }
-    public albumGenre genre { get; set; }
+    public albumGenre Genre { get; set; }
     
 
     [Range(0.01, 9999.99)]

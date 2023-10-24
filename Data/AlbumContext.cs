@@ -11,5 +11,4 @@ namespace A_DOT_NET.Data
         public DbSet<A_DOT_NET.models.Album_cd>? Albums { get; set; }
     }
 
-
 }
