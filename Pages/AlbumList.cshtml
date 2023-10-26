@@ -1,0 +1,36 @@
+﻿@page
+@model A_DOT_NET.Pages.AlbumListModel
+@{
+    ViewData["Title"] = "Album List 🎶";
+}
+<h1>Albums List 🎶</h1>
+
+<!-- New Album form will go here -->
+
+<table class="table mt-5">
+    <thead>
+        <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Artist</th>
+            <th scope="col">Genre</th>
+            <th scope="col">Price</th>          
+            <th scope="col">Delete</th>
+        </tr>
+    </thead>
+    <tbody>
+    @foreach (var cd in Model.AlbumList)
+    {
+        <tr>
+            <td>@cd.Album_name</td>
+            <td>@cd.Artist_name</td>
+            <td>@cd.Genre</td>
+            <td>@($"{cd.Price:C}")</td>
+            <td>
+                <form method="post" asp-page-handler="Delete" asp-route-id="@cd.Album_id">
+                    <button class="btn btn-danger">Delete</button>
+                </form>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>

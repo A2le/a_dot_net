@@ -11,19 +11,19 @@ namespace A_DOT_NET.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "Musica_CDs",
+                name: "albums",
                 columns: table => new
                 {
-                    album_id = table.Column<int>(type: "INTEGER", nullable: false)
+                    Album_id = table.Column<int>(type: "INTEGER", nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
-                    album_name = table.Column<string>(type: "TEXT", nullable: false),
-                    artist_name = table.Column<String>(type: "TEXT", nullable: false),
-                    genre = table.Column<String>(type: "TEXT", nullable: false),
+                    Album_name = table.Column<string>(type: "TEXT", nullable: false),
+                    Artist_name = table.Column<String>(type: "TEXT", nullable: false),
+                    Genre = table.Column<String>(type: "TEXT", nullable: false),
                     Price = table.Column<decimal>(type: "TEXT", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Musica_CDs", x => x.album_id);
+                    table.PrimaryKey("PK_albums", x => x.Album_id);
                 });
         }
 
@@ -31,7 +31,7 @@ namespace A_DOT_NET.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "Musica_CDs");
+                name: "albums");
         }
     }
 }

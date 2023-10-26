@@ -34,10 +34,10 @@ namespace A_DOT_NET.Services
         {
             if (_context.Albums != null)
             {
-                var pizza = _context.Albums.Find(id);
-                if (pizza != null)
+                var album = _context.Albums.Find(id);
+                if (album != null)
                 {
-                    _context.Albums.Remove(pizza);
+                    _context.Albums.Remove(album);
                     _context.SaveChanges();
                 }
             }            

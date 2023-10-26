@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /workspaces/a_dot_net
 build_property._RazorSourceGeneratorDebug = 
 
+[/workspaces/a_dot_net/Pages/AlbumList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWxidW1MaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/workspaces/a_dot_net/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

@@ -5,14 +5,6 @@
       "PackagePath": "staticwebassets/MyWebApp.bundle.scp.css"
     },
     {
-      "Id": "/workspaces/a_dot_net/wwwroot/css/compact-disc.png",
-      "PackagePath": "staticwebassets/css/compact-disc.png"
-    },
-    {
-      "Id": "/workspaces/a_dot_net/wwwroot/css/music-album.png",
-      "PackagePath": "staticwebassets/css/music-album.png"
-    },
-    {
       "Id": "/workspaces/a_dot_net/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
     },
@@ -27,6 +19,10 @@
     {
       "Id": "/workspaces/a_dot_net/wwwroot/images/cart.png",
       "PackagePath": "staticwebassets/images/cart.png"
+    },
+    {
+      "Id": "/workspaces/a_dot_net/wwwroot/images/compact-disc.png",
+      "PackagePath": "staticwebassets/images/compact-disc.png"
     },
     {
       "Id": "/workspaces/a_dot_net/wwwroot/images/diskette (1).png",
@@ -55,6 +51,10 @@
     {
       "Id": "/workspaces/a_dot_net/wwwroot/images/location.png",
       "PackagePath": "staticwebassets/images/location.png"
+    },
+    {
+      "Id": "/workspaces/a_dot_net/wwwroot/images/music-album.png",
+      "PackagePath": "staticwebassets/images/music-album.png"
     },
     {
       "Id": "/workspaces/a_dot_net/wwwroot/images/payment.png",

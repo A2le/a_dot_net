@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "/o+zpx4RNs+PEznB/BXGgdsDyxrrT55uk1G5SEPH3K8=",
+  "Hash": "0YzBHehG1SMEhLSsqLoUXHMHj1JaVlG/dd5g8p2cfIE=",
   "Source": "MyWebApp",
   "BasePath": "_content/MyWebApp",
   "Mode": "Default",
@@ -49,40 +49,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/workspaces/a_dot_net/obj/Debug/net7.0/scopedcss/projectbundle/MyWebApp.bundle.scp.css"
-    },
-    {
-      "Identity": "/workspaces/a_dot_net/wwwroot/css/compact-disc.png",
-      "SourceId": "MyWebApp",
-      "SourceType": "Discovered",
-      "ContentRoot": "/workspaces/a_dot_net/wwwroot/",
-      "BasePath": "_content/MyWebApp",
-      "RelativePath": "css/compact-disc.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/compact-disc.png"
-    },
-    {
-      "Identity": "/workspaces/a_dot_net/wwwroot/css/music-album.png",
-      "SourceId": "MyWebApp",
-      "SourceType": "Discovered",
-      "ContentRoot": "/workspaces/a_dot_net/wwwroot/",
-      "BasePath": "_content/MyWebApp",
-      "RelativePath": "css/music-album.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/music-album.png"
     },
     {
       "Identity": "/workspaces/a_dot_net/wwwroot/css/site.css",
@@ -151,6 +117,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/images/cart.png"
+    },
+    {
+      "Identity": "/workspaces/a_dot_net/wwwroot/images/compact-disc.png",
+      "SourceId": "MyWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/workspaces/a_dot_net/wwwroot/",
+      "BasePath": "_content/MyWebApp",
+      "RelativePath": "images/compact-disc.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/compact-disc.png"
     },
     {
       "Identity": "/workspaces/a_dot_net/wwwroot/images/diskette (1).png",
@@ -270,6 +253,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/images/location.png"
+    },
+    {
+      "Identity": "/workspaces/a_dot_net/wwwroot/images/music-album.png",
+      "SourceId": "MyWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/workspaces/a_dot_net/wwwroot/",
+      "BasePath": "_content/MyWebApp",
+      "RelativePath": "images/music-album.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/music-album.png"
     },
     {
       "Identity": "/workspaces/a_dot_net/wwwroot/images/payment.png",

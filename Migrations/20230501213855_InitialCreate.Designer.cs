@@ -19,30 +19,30 @@ namespace A_DOT_NET.Migrations
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "7.0.5");
 
-            modelBuilder.Entity("A_DOT_NET.Models.Pizza", b =>
+            modelBuilder.Entity("A_DOT_NET.models.Album_cd", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<int>("Album_id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
-                    b.Property<string>("Name")
+                    b.Property<string>("Album_name")
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("Artist")
+                    b.Property<string>("Artist_name")
                         .IsRequired()
-                        .HasColumnType("TEXT");
-
-                    b.Property<decimal>("Price")
                         .HasColumnType("TEXT");
 
                     b.Property<int>("Genre")
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.HasKey("Id");
+                    b.Property<decimal>("Price")
+                        .HasColumnType("TEXT");
 
-                    b.ToTable("Musica_CDs");
+                    b.HasKey("Album_id");
+
+                    b.ToTable("albums");
                 });
 #pragma warning restore 612, 618
         }
