@@ -9,6 +9,7 @@ public class Album_cd
 
     [Required]
     public string? Album_name { get; set; }
+    [Required]
     public String? Artist_name { get; set; }
     public AlbumGenre Genre { get; set; }
     

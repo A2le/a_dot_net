@@ -5,7 +5,38 @@
 }
 <h1>Albums List 🎶</h1>
 
-<!-- New Album form will go here -->
+<form method="post">
+<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+<div class="form-group">
+    <label asp-for="NewAlbum.Album_name" class="control-label"></label>
+    <input asp-for="NewAlbum.Album_name" class="form-control" />
+    <span asp-validation-for="NewAlbum.Album_name" class="text-danger"></span>
+</div>
+<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+<div class="form-group">
+    <label asp-for="NewAlbum.Artist_name" class="control-label"></label>
+    <input asp-for="NewAlbum.Artist_name" class="form-control" />
+    <span asp-validation-for="NewAlbum.Artist_name" class="text-danger"></span>
+</div>
+<div class="form-group">
+    <label asp-for="NewAlbum.Genre" class="control-label"></label>
+    <select asp-for="NewAlbum.Genre" class="form-control" id="PizzaSize">
+        <option value="">-- Select Size --</option>
+        <option value="Pop">Pop</option>
+        <option value="Gospel">Gospel</option>
+        <option value="HipHop">HipHop</option>
+    </select>
+    <span asp-validation-for="NewAlbum.Genre" class="text-danger"></span>
+</div>
+<div class="form-group">
+    <label asp-for="NewAlbum.Price" class="control-label"></label>
+    <input asp-for="NewAlbum.Price" class="form-control" />
+    <span asp-validation-for="NewAlbum.Price" class="text-danger"></span>
+</div>
+<div class="form-group">
+    <input type="submit" value="Create" class="btn btn-primary" />
+</div>
+</form>
 
 <table class="table mt-5">
     <thead>
@@ -34,3 +65,6 @@
     }
     </tbody>
 </table>
+@section Scripts {
+<partial name="_ValidationScriptsPartial" />
+}
