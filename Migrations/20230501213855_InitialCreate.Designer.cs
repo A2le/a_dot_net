@@ -36,6 +36,18 @@ namespace A_DOT_NET.Migrations
                     b.Property<int>("Genre")
                         .IsRequired()
                         .HasColumnType("TEXT");
+                        
+                    b.Property<int>("IsAvailableForRent")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<int>("IsAvailableForPurchase")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<int>("Year")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
 
                     b.Property<decimal>("Price")
                         .HasColumnType("TEXT");

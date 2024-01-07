@@ -19,6 +19,9 @@ namespace A_DOT_NET.Migrations
                     Album_name = table.Column<string>(type: "TEXT", nullable: false),
                     Artist_name = table.Column<String>(type: "TEXT", nullable: false),
                     Genre = table.Column<String>(type: "TEXT", nullable: false),
+                    IsAvailableForRent = table.Column<int>(type: "INTEGER", nullable: false),
+                    IsAvailableeForPurchas = table.Column<int>(type: "INTEGER", nullable: false),
+                    Year = table.Column<int>(type: "INTEGER", nullable: false),
                     Price = table.Column<decimal>(type: "TEXT", nullable: false)
                 },
                 constraints: table =>
