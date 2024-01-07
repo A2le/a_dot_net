@@ -25,6 +25,7 @@
         <option value="Pop">Pop</option>
         <option value="Gospel">Gospel</option>
         <option value="HipHop">HipHop</option>
+        <option value="AfroBeats">AfroBeats</option>
     </select>
     <span asp-validation-for="NewAlbum.Genre" class="text-danger"></span>
 </div>
@@ -43,8 +44,11 @@
         <tr>
             <th scope="col">Name</th>
             <th scope="col">Artist</th>
+            <th scope="col">year</th>
             <th scope="col">Genre</th>
-            <th scope="col">Price</th>          
+            <th scope="col">Price</th>
+            <th scope="col">Available to rent</th>
+            <th scope="col">Available to buy</th>          
             <th scope="col">Delete</th>
         </tr>
     </thead>
@@ -54,8 +58,11 @@
         <tr>
             <td>@cd.Album_name</td>
             <td>@cd.Artist_name</td>
+            <td>@cd.Year</td>
             <td>@cd.Genre</td>
             <td>@($"{cd.Price:C}")</td>
+            <td>@cd.IsAvailableForRent</td>
+            <td>@cd.IsAvailableForPurchase</td>
             <td>
                 <form method="post" asp-page-handler="Delete" asp-route-id="@cd.Album_id">
                     <button class="btn btn-danger">Delete</button>
