@@ -301,3 +301,4 @@
 /workspaces/a_dot_net/obj/Debug/net7.0/MyWebApp.pdb
 /workspaces/a_dot_net/obj/Debug/net7.0/MyWebApp.genruntimeconfig.cache
 /workspaces/a_dot_net/obj/Debug/net7.0/ref/MyWebApp.dll
+/workspaces/a_dot_net/bin/Debug/net7.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll

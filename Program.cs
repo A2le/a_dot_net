@@ -1,5 +1,6 @@
 using A_DOT_NET.Data;
 using A_DOT_NET.Services;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Localization;
 using Microsoft.EntityFrameworkCore;
 
@@ -14,6 +15,9 @@ builder.Services.Configure<RequestLocalizationOptions>(options =>
 {
     options.DefaultRequestCulture = new RequestCulture("en-ZA");
 });
+builder.Services.AddIdentity<IdentityUser, IdentityRole>()
+    .AddEntityFrameworkStores<AlbumContext>()
+    .AddSignInManager<SignInManager<IdentityUser>>();
 
 var app = builder.Build();
 
